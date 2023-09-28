@@ -1,4 +1,4 @@
-function slug(str = '') {
+function slug(str: string): string {
   if (!str) {
     return ''
   }
