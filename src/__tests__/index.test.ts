@@ -1,4 +1,6 @@
-import slug from './index'
+import { describe, expect, it } from '@jest/globals'
+
+import slug from '../index'
 
 describe('slug', () => {
   it('should return an empty string for empty input', () => {
